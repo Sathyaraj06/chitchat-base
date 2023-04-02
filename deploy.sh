@@ -8,7 +8,7 @@ git pull
 
 sudo docker-compose build
 
-sudo docker-compose up -d chitchat
+sudo docker-compose up -d
 
 sudo docker images
 
