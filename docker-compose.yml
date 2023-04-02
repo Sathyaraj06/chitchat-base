@@ -4,7 +4,7 @@ services:
   rasa-faq:
     container_name: rasa-faq
     image: rasa-faq:latest
-    build: ./Dockerfiles/faq
+    build: ./Dockerfiles
     ports:
       - "5005:5005"
     networks:
