@@ -11,7 +11,7 @@ services:
     networks:
       - code-network
     restart: always
-    command: rasa run -m models/models_chitchat.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/chitchat-model.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"
 
   # organization2:
   #   container_name: organization2
