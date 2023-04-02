@@ -1,10 +1,10 @@
 echo "started---------------"
 
-# sudo docker rm -f $(sudo docker ps -aq)
+echo "docker rm -f $(sudo docker ps -aq)"
 
 sudo docker rmi $(sudo docker images -q)
 
-git reset --hard
+git pull
 
 sudo docker-compose build
 
