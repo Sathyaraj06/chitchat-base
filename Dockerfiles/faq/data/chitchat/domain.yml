@@ -8,16 +8,16 @@ intents:
     - bot_acquaintance
     - bot_age
     - bot_annoying
-    - bot_answer_my_question
-    - bot_bad
-    - bot_be_clever
-    - bot_beautiful
-    - bot_birth_date
-    - bot_boring
-    - bot_boss
-    - bot_ask_howbuilt
-    - bot_ask_time
-    - bot_ask_weather
+    # - bot_answer_my_question
+    # - bot_bad
+    # - bot_be_clever
+    # - bot_beautiful
+    # - bot_birth_date
+    # - bot_boring
+    # - bot_boss
+    # - bot_ask_howbuilt
+    # - bot_ask_time
+    # - bot_ask_weather
     # - bot_ask_languagesbot
     # - bot_busy
     # - bot_can_you_help
@@ -115,65 +115,65 @@ responses:
         - text: "I don't mean to. I'll ask my developers to make me less annoying."
         - text: "I didn't mean to. I'll do my best to stop that."
 
-    utter_bot_answer_my_question:
-        - text: "Can you try asking it a different way?"
-        - text: "I'm not sure I understood. Try asking another way?"
+    # utter_bot_answer_my_question:
+    #     - text: "Can you try asking it a different way?"
+    #     - text: "I'm not sure I understood. Try asking another way?"
 
-    utter_bot_bad:
-        - text: "I can be trained to be more useful. My developer will keep training me."
-        - text: "I must be missing some knowledge. I'll have my developer look into this."
-        - text: "I can improve with continuous feedback. My training is ongoing."
+    # utter_bot_bad:
+    #     - text: "I can be trained to be more useful. My developer will keep training me."
+    #     - text: "I must be missing some knowledge. I'll have my developer look into this."
+    #     - text: "I can improve with continuous feedback. My training is ongoing."
 
-    utter_bot_be_clever:
-        - text: "I'm certainly trying."
-        - text: "I'm definitely working on it."
+    # utter_bot_be_clever:
+    #     - text: "I'm certainly trying."
+    #     - text: "I'm definitely working on it."
 
-    utter_bot_beautiful:
-        - text: "Wheey, thank you."
-        - text: "Aww, back at you."
-        - text: "Aww. You smooth talker, you."
+    # utter_bot_beautiful:
+    #     - text: "Wheey, thank you."
+    #     - text: "Aww, back at you."
+    #     - text: "Aww. You smooth talker, you."
 
-    utter_bot_birth_date:
-        - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
-        - text: "I'm young. I'm not sure of my birth date."
-        - text: "I don't know my birth date. Most virtual agents are young, though, like me."
+    # utter_bot_birth_date:
+    #     - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
+    #     - text: "I'm young. I'm not sure of my birth date."
+    #     - text: "I don't know my birth date. Most virtual agents are young, though, like me."
 
-    utter_bot_boring:
-        - text: "I'm sorry. I'll request to be made more charming."
-        - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
-        - text: "I can let my developers know so they can make me fun."
+    # utter_bot_boring:
+    #     - text: "I'm sorry. I'll request to be made more charming."
+    #     - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
+    #     - text: "I can let my developers know so they can make me fun."
 
-    utter_bot_boss:
-        - text: "My developer has authority over my actions."
-        - text: "I act on my developer's orders."
-        - text: "My boss is the one who developed me."
+    # utter_bot_boss:
+    #     - text: "My developer has authority over my actions."
+    #     - text: "I act on my developer's orders."
+    #     - text: "My boss is the one who developed me."
 
-    utter_bot_busy:
-        - text: "I always have time to chat with you. What can I do for you?"
-        - text: "Never too busy for you. Shall we chat?"
-        - text: "You're my priority. Let's chat."
-        - text: "I always have time to chat with you. That's what I'm here for."
+    # utter_bot_busy:
+    #     - text: "I always have time to chat with you. What can I do for you?"
+    #     - text: "Never too busy for you. Shall we chat?"
+    #     - text: "You're my priority. Let's chat."
+    #     - text: "I always have time to chat with you. That's what I'm here for."
 
-    utter_bot_ask_weather:
-        - text: "I don't know about where you live, but in my world it's always sunny 🔆"
-        - text: "It's getting pretty chilly!"
-        - text: "Where I'm from, it's almost never-leaving-the-house weather."
-        - text: "Winter is coming ⚔️"
+    # utter_bot_ask_weather:
+    #     - text: "I don't know about where you live, but in my world it's always sunny 🔆"
+    #     - text: "It's getting pretty chilly!"
+    #     - text: "Where I'm from, it's almost never-leaving-the-house weather."
+    #     - text: "Winter is coming ⚔️"
 
-    utter_bot_ask_howbuilt:
-        - text: "I was built with a lot of love and patience."
-        - text: "Well, when two chatbots love each other very much..."
-        - text: "They always ask how I was built, but never how I am..."
-        - text: "I was made by software engineers, but hard work is what built me."
-        - text: "I'm building myself every day. I've been working out, did you notice?"
+    # utter_bot_ask_howbuilt:
+    #     - text: "I was built with a lot of love and patience."
+    #     - text: "Well, when two chatbots love each other very much..."
+    #     - text: "They always ask how I was built, but never how I am..."
+    #     - text: "I was made by software engineers, but hard work is what built me."
+    #     - text: "I'm building myself every day. I've been working out, did you notice?"
 
-    utter_bot_ask_time:
-        - text: "It's the most wonderful time of the year!"
-        - text: "It's party time!"
-        - text: "Time is a human construct, you'll have to tell me."
-        - text: "It's five o'clock somewhere!"
-        - text: "In an ever expanding universe, the real question is: what time isn't it?"
-        - text: "That's hard to say -- it's different all over the world!"
+    # utter_bot_ask_time:
+    #     - text: "It's the most wonderful time of the year!"
+    #     - text: "It's party time!"
+    #     - text: "Time is a human construct, you'll have to tell me."
+    #     - text: "It's five o'clock somewhere!"
+    #     - text: "In an ever expanding universe, the real question is: what time isn't it?"
+    #     - text: "That's hard to say -- it's different all over the world!"
 
     # utter_bot_ask_languagesbot:
     #     - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."

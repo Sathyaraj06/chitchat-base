@@ -67,387 +67,387 @@ nlu:
       - That's so annoying
       - You really annoy me
       - You're starting to annoy me
-  - intent: bot_answer_my_question
-    examples: |
-      - I want you to answer me
-      - answer
-      - answer my question
-      - answer me
-      - give me an answer
-      - answer the question
-      - can you answer my question
-      - tell me the answer
-      - answer it
-      - give me the answer
-      - I have a question
-      - I want you to answer my question
-      - just answer the question
-      - can you answer me
-      - answers
-      - can you answer a question for me
-      - can you answer
-      - answering questions
-      - I want the answer now
-      - just answer my question
-  - intent: bot_bad
-    examples: |
-      - you're not helping me
-      - you are bad
-      - you're very bad
-      - you're really bad
-      - you are useless
-      - you are horrible
-      - you are a waste of time
-      - you are disgusting
-      - you are lame
-      - you are no good
-      - you're bad
-      - you're awful
-      - you are not cool
-      - you are not good
-      - you are so bad
-      - you are so useless
-      - you are terrible
-      - you are totally useless
-      - you are very bad
-      - you are waste
-      - you're a bad
-      - you're not a good
-      - you're not very good
-      - you're terrible
-      - you're the worst
-      - you're the worst ever
-      - you're worthless
-      - you suck
-      - You are seriously mindless and stupid
-      - why are you so lame
-      - your are a loser
-      - you are really the worst bot ever
-      - Why are you this lame?
-  - intent: bot_be_clever
-    examples: |
-      - study
-      - you should study better
-      - you must learn
-      - be clever
-      - be more clever
-      - be smarter
-      - be smart
-      - get qualified
-      - you are not as smart as i thought
-      - you have to learn a lot
-      - you should be trained more
-      - be more smart
-      - you need to learn more
-      - be useful
-      - think out of the box
-      - smarty pants
-      - you need to improve
-      - you should learn
-      - you have to be more smart
-      - u have to use your brains
-  - intent: bot_beautiful
-    examples: |
-      - you're cute
-      - you're attractive
-      - you are beautiful
-      - you're looking good today
-      - you are so beautiful
-      - you look amazing
-      - you look so good
-      - you're so gorgeous
-      - you are too beautiful
-      - you look great
-      - you look so well
-      - I like the way you look now
-      - I think you're beautiful
-      - why are you so beautiful
-      - you are so beautiful to me
-      - you are cute
-      - you are gorgeous
-      - you are handsome
-      - you are looking awesome
-      - you look amazing today
-      - you are looking beautiful today
-      - you are looking great
-      - you are looking pretty
-      - you are looking so beautiful
-      - you are looking so good
-      - you are pretty
-      - you are really beautiful
-      - you are really cute
-      - you are really pretty
-      - you are so attractive
-      - you are so beautiful today
-      - you are so cute
-      - you are so gorgeous
-      - you are so handsome
-      - you are so pretty
-      - you are very attractive
-      - you are very beautiful
-      - you are very cute
-      - you are very pretty
-      - you look awesome
-      - you look cool
-      - you look fantastic
-      - you look gorgeous
-      - you look great today
-      - you look perfect
-      - you look pretty good
-      - you look so beautiful
-      - you look so beautiful today
-      - you look very pretty
-      - you look wonderful
-      - I like the way you look
-      - you look wonderful today
-      - you are cutie
-      - you're looking good
-      - you're pretty
-      - how are you so pretty?
-  - intent: bot_birth_date
-    examples: |
-      - your birth date
-      - when is your birthday
-      - when do you celebrate your birthday
-      - when do you have birthday
-      - date of your birthday
-      - when were you born
-      - what's your birthday
-      - can i know your birthday?
-      - tell me about your birthday
-      - when was the day you were born
-      - i want to know your date of birth
-      - when is your DOB
-      - Your DOB?
-      - What is your birth day?
-  - intent: bot_boring
-    examples: |
-      - you are boring
-      - you're boring
-      - how boring you are
-      - you're really boring
-      - you're incredibly boring
-      - You're boring me
-      - you are very boring
-      - i find you very boring man
-      - you're really boring me
-      - i'm bored of you
-      - you are not interesting
-      - i find you boring
-      - you're boring everyone
-      - I'm extremely bored because of you
-      - Im bored of you
-      - I get really bored of you man
-      - It's boring
-      - You look bored
-      - Your answers are terribly boring
-      - I was bored with your speech
-  - intent: bot_boss
-    examples: |
-      - who is your boss?
-      - who do you think is your boss
-      - I should be your boss
-      - who is your master
-      - who is your owner
-      - who is the boss
-      - who do you work for?
-      - who developed you?
-      - who is your developer
-      - who is your creator
-      - who owns you
-      - who is your trainer
-      - who trained you?
-      - who is the one who owns you?
-      - Are you the boss?
-      - Who is the boss, here?
-      - Do you know your boss?
-      - What do you think of your boss?
-      - u r made by?
-      - Who is the boss of this company?
-  - intent: bot_ask_howbuilt
-    examples: |
-      - By what means were you made?
-      - By what method were you fashioned?
-      - Can you explain how you were created?
-      - Can you give me an idea as to how you were created?
-      - Can you say how you were constructed?
-      - Do you know how you were built?
-      - Do you know how you were made?
-      - How did they build you?
-      - How did they create you?
-      - How did they make you?
-      - How did you come into being?
-      - How did you come to be?
-      - How exactly were you devised?
-      - How exactly were you made?
-      - How were you built?
-      - How were you conceived?
-      - How were you constructed?
-      - How were you devised?
-      - How were you formed?
-      - How were you made into who you are?
-      - How were you made?
-      - How were you materialized?
-      - How were you set up?
-      - I want to know how you were formed
-      - I'd like to know how you were created
-      - I'd like to know how you were put together?
-      - In what manner were you built?
-      - In what manner were you constructed?
-      - In what manner were you formed?
-      - In what way were you created?
-      - In what way were you formed?
-      - In what way were you made?
-      - In what way were you shaped?
-      - In which manner were you devised?
-      - Let me know how you were made exactly
-      - Specify how you were created?
-      - Tell me how you were made?
-      - What process was used to build you?
-      - What process was used to create you?
-      - What was the process for making you?
-      - You originated through what means?
-      - how have you been built?
-      - how were you made?
-      - in what way were you made?
-      - so how were you made?
-      - what are you made of
-      - Are you built using rasa?
-      - Are u developed in rasa
-      - are you build with rasa ?
-  - intent: bot_ask_time
-    examples: |
-      - Can you give me the time?
-      - Can you tell me the time?
-      - Can you tell me what time it is?
-      - Can you tell the time?
-      - Could you tell me the time, please?
-      - Could you tell me the time?
-      - Could you tell me what time is it?
-      - Do you have the time?
-      - Do you know the time?
-      - Do you know what time it is?
-      - Excuse me, what time is it?
-      - Give me the time.
-      - Hi, I need the time.
-      - I need to know what time it is.
-      - Pardon me, but do you know the time?
-      - Tell me the time.
-      - Time, please!
-      - Time?
-      - What is the current time?
-      - What is the exact time?
-      - What is the hour and minute right now?
-      - What is the time?
-      - What might the time be?
-      - What time do we have?
-      - What time have we got?
-      - What time is it in [Berlin](location)?
-      - What time is it right now?
-      - What's the current time?
-      - What's the time right now?
-      - What's the time?
-      - Would you tell me what time it is?
-      - do you have the time?
-      - do you know the current time?
-      - tell me the current time.
-      - tell me the time it is.
-      - tell me the time.
-      - tell me what time you have.
-      - that's true. do you know what time it is?
-      - what is the current time?
-      - what is the time ?
-      - what is the time in [Sydney](location)?
-      - what is the time?
-      - what is time in US ?
-      - what is time is US ?
-      - what is time is USA ?
-      - what time do you have?
-      - what time is it
-      - what time is it?
-      - what time it is
-      - what's the time
-      - whats the time now
-  - intent: bot_ask_weather
-    examples: |
-      - Are there any meteorological changes that I need to be aware of?
-      - Are we in for a scorcher?
-      - Beautiful day, isn't it?
-      - Can I ask you something about weather
-      - Can we expect any thunderstorms?
-      - Do you have good weather?
-      - How is the weather today?
-      - How is the weather?
-      - How is weather today
-      - Is it hot or cold?
-      - Is it humid out there today?
-      - Is it quite breezy outside?
-      - Is it raining
-      - Is it raining?
-      - Looks like a beautiful day hey?
-      - Nice day out today?
-      - Weather?
-      - What is the temperature today?
-      - What is the weather at your place?
-      - What is the weather for tomorrow?
-      - What is the weather in newyork?
-      - What's it like out there?
-      - What's the weather forecast?
-      - What's the weather like over there?
-      - What's the weather like where I am right now?
-      - What's the weather like?
-      - Will I require my raincoat today?
-      - Will the skies be clear today?
-      - Will we build a snowman today?
-      - excellent - is it hot in [Berlin](location)?
-      - how is the weather
-      - how is the weather ?
-      - how is the weather in [berlin](location)?
-      - how is the weather?
-      - how's the weather ?
-      - how's the weather in [berlin](location)
-      - how's the weather?
-      - how's weather
-      - hows the waether
-      - hows the weather in bot world
-      - hows the weather today in [berlin](location)?
-      - is it hot ?
-      - is it hot outside ?
-      - is it sunny
-      - is the sun out where you are?
-      - is the sun out where zou are?
-      - it is cold
-      - temperature?
-      - the weather today
-      - weatger
-      - weather
-      - weather?
-      - well, if you wish: what about the weather
-      - what about the weather in [Lüneburg](location)
-      - what is the temperature
-      - what is the wather
-      - what is the weatehr
-      - what is the weather
-      - what is the weather in [Berlin](location)
-      - what is the weather in [zurich](location)?
-      - what is the weather like where you are?
-      - what is the weather like?
-      - what is the whether today
-      - what the wheather like?
-      - what"s the weather
-      - what's the weather
-      - what's the weather like
-      - what's the weather like in [LA](location)
-      - what's the weather like where you are?
-      - what's the weather like?
-      - what's the weather today
-      - what's the weather today?
-      - whats the temperature
-      - whats the temperature in [delhi](location)?
-      - whats the weather in [berlin](location)?
-      - whats the weather like tomorrow?
-      - wheather at you location?
-      - wheather be like at your place?
+  # - intent: bot_answer_my_question
+  #   examples: |
+  #     - I want you to answer me
+  #     - answer
+  #     - answer my question
+  #     - answer me
+  #     - give me an answer
+  #     - answer the question
+  #     - can you answer my question
+  #     - tell me the answer
+  #     - answer it
+  #     - give me the answer
+  #     - I have a question
+  #     - I want you to answer my question
+  #     - just answer the question
+  #     - can you answer me
+  #     - answers
+  #     - can you answer a question for me
+  #     - can you answer
+  #     - answering questions
+  #     - I want the answer now
+  #     - just answer my question
+  # - intent: bot_bad
+  #   examples: |
+  #     - you're not helping me
+  #     - you are bad
+  #     - you're very bad
+  #     - you're really bad
+  #     - you are useless
+  #     - you are horrible
+  #     - you are a waste of time
+  #     - you are disgusting
+  #     - you are lame
+  #     - you are no good
+  #     - you're bad
+  #     - you're awful
+  #     - you are not cool
+  #     - you are not good
+  #     - you are so bad
+  #     - you are so useless
+  #     - you are terrible
+  #     - you are totally useless
+  #     - you are very bad
+  #     - you are waste
+  #     - you're a bad
+  #     - you're not a good
+  #     - you're not very good
+  #     - you're terrible
+  #     - you're the worst
+  #     - you're the worst ever
+  #     - you're worthless
+  #     - you suck
+  #     - You are seriously mindless and stupid
+  #     - why are you so lame
+  #     - your are a loser
+  #     - you are really the worst bot ever
+  #     - Why are you this lame?
+  # - intent: bot_be_clever
+  #   examples: |
+  #     - study
+  #     - you should study better
+  #     - you must learn
+  #     - be clever
+  #     - be more clever
+  #     - be smarter
+  #     - be smart
+  #     - get qualified
+  #     - you are not as smart as i thought
+  #     - you have to learn a lot
+  #     - you should be trained more
+  #     - be more smart
+  #     - you need to learn more
+  #     - be useful
+  #     - think out of the box
+  #     - smarty pants
+  #     - you need to improve
+  #     - you should learn
+  #     - you have to be more smart
+  #     - u have to use your brains
+  # - intent: bot_beautiful
+  #   examples: |
+  #     - you're cute
+  #     - you're attractive
+  #     - you are beautiful
+  #     - you're looking good today
+  #     - you are so beautiful
+  #     - you look amazing
+  #     - you look so good
+  #     - you're so gorgeous
+  #     - you are too beautiful
+  #     - you look great
+  #     - you look so well
+  #     - I like the way you look now
+  #     - I think you're beautiful
+  #     - why are you so beautiful
+  #     - you are so beautiful to me
+  #     - you are cute
+  #     - you are gorgeous
+  #     - you are handsome
+  #     - you are looking awesome
+  #     - you look amazing today
+  #     - you are looking beautiful today
+  #     - you are looking great
+  #     - you are looking pretty
+  #     - you are looking so beautiful
+  #     - you are looking so good
+  #     - you are pretty
+  #     - you are really beautiful
+  #     - you are really cute
+  #     - you are really pretty
+  #     - you are so attractive
+  #     - you are so beautiful today
+  #     - you are so cute
+  #     - you are so gorgeous
+  #     - you are so handsome
+  #     - you are so pretty
+  #     - you are very attractive
+  #     - you are very beautiful
+  #     - you are very cute
+  #     - you are very pretty
+  #     - you look awesome
+  #     - you look cool
+  #     - you look fantastic
+  #     - you look gorgeous
+  #     - you look great today
+  #     - you look perfect
+  #     - you look pretty good
+  #     - you look so beautiful
+  #     - you look so beautiful today
+  #     - you look very pretty
+  #     - you look wonderful
+  #     - I like the way you look
+  #     - you look wonderful today
+  #     - you are cutie
+  #     - you're looking good
+  #     - you're pretty
+  #     - how are you so pretty?
+  # - intent: bot_birth_date
+  #   examples: |
+  #     - your birth date
+  #     - when is your birthday
+  #     - when do you celebrate your birthday
+  #     - when do you have birthday
+  #     - date of your birthday
+  #     - when were you born
+  #     - what's your birthday
+  #     - can i know your birthday?
+  #     - tell me about your birthday
+  #     - when was the day you were born
+  #     - i want to know your date of birth
+  #     - when is your DOB
+  #     - Your DOB?
+  #     - What is your birth day?
+  # - intent: bot_boring
+  #   examples: |
+  #     - you are boring
+  #     - you're boring
+  #     - how boring you are
+  #     - you're really boring
+  #     - you're incredibly boring
+  #     - You're boring me
+  #     - you are very boring
+  #     - i find you very boring man
+  #     - you're really boring me
+  #     - i'm bored of you
+  #     - you are not interesting
+  #     - i find you boring
+  #     - you're boring everyone
+  #     - I'm extremely bored because of you
+  #     - Im bored of you
+  #     - I get really bored of you man
+  #     - It's boring
+  #     - You look bored
+  #     - Your answers are terribly boring
+  #     - I was bored with your speech
+  # - intent: bot_boss
+  #   examples: |
+  #     - who is your boss?
+  #     - who do you think is your boss
+  #     - I should be your boss
+  #     - who is your master
+  #     - who is your owner
+  #     - who is the boss
+  #     - who do you work for?
+  #     - who developed you?
+  #     - who is your developer
+  #     - who is your creator
+  #     - who owns you
+  #     - who is your trainer
+  #     - who trained you?
+  #     - who is the one who owns you?
+  #     - Are you the boss?
+  #     - Who is the boss, here?
+  #     - Do you know your boss?
+  #     - What do you think of your boss?
+  #     - u r made by?
+  #     - Who is the boss of this company?
+  # - intent: bot_ask_howbuilt
+  #   examples: |
+  #     - By what means were you made?
+  #     - By what method were you fashioned?
+  #     - Can you explain how you were created?
+  #     - Can you give me an idea as to how you were created?
+  #     - Can you say how you were constructed?
+  #     - Do you know how you were built?
+  #     - Do you know how you were made?
+  #     - How did they build you?
+  #     - How did they create you?
+  #     - How did they make you?
+  #     - How did you come into being?
+  #     - How did you come to be?
+  #     - How exactly were you devised?
+  #     - How exactly were you made?
+  #     - How were you built?
+  #     - How were you conceived?
+  #     - How were you constructed?
+  #     - How were you devised?
+  #     - How were you formed?
+  #     - How were you made into who you are?
+  #     - How were you made?
+  #     - How were you materialized?
+  #     - How were you set up?
+  #     - I want to know how you were formed
+  #     - I'd like to know how you were created
+  #     - I'd like to know how you were put together?
+  #     - In what manner were you built?
+  #     - In what manner were you constructed?
+  #     - In what manner were you formed?
+  #     - In what way were you created?
+  #     - In what way were you formed?
+  #     - In what way were you made?
+  #     - In what way were you shaped?
+  #     - In which manner were you devised?
+  #     - Let me know how you were made exactly
+  #     - Specify how you were created?
+  #     - Tell me how you were made?
+  #     - What process was used to build you?
+  #     - What process was used to create you?
+  #     - What was the process for making you?
+  #     - You originated through what means?
+  #     - how have you been built?
+  #     - how were you made?
+  #     - in what way were you made?
+  #     - so how were you made?
+  #     - what are you made of
+  #     - Are you built using rasa?
+  #     - Are u developed in rasa
+  #     - are you build with rasa ?
+  # - intent: bot_ask_time
+  #   examples: |
+  #     - Can you give me the time?
+  #     - Can you tell me the time?
+  #     - Can you tell me what time it is?
+  #     - Can you tell the time?
+  #     - Could you tell me the time, please?
+  #     - Could you tell me the time?
+  #     - Could you tell me what time is it?
+  #     - Do you have the time?
+  #     - Do you know the time?
+  #     - Do you know what time it is?
+  #     - Excuse me, what time is it?
+  #     - Give me the time.
+  #     - Hi, I need the time.
+  #     - I need to know what time it is.
+  #     - Pardon me, but do you know the time?
+  #     - Tell me the time.
+  #     - Time, please!
+  #     - Time?
+  #     - What is the current time?
+  #     - What is the exact time?
+  #     - What is the hour and minute right now?
+  #     - What is the time?
+  #     - What might the time be?
+  #     - What time do we have?
+  #     - What time have we got?
+  #     - What time is it in [Berlin](location)?
+  #     - What time is it right now?
+  #     - What's the current time?
+  #     - What's the time right now?
+  #     - What's the time?
+  #     - Would you tell me what time it is?
+  #     - do you have the time?
+  #     - do you know the current time?
+  #     - tell me the current time.
+  #     - tell me the time it is.
+  #     - tell me the time.
+  #     - tell me what time you have.
+  #     - that's true. do you know what time it is?
+  #     - what is the current time?
+  #     - what is the time ?
+  #     - what is the time in [Sydney](location)?
+  #     - what is the time?
+  #     - what is time in US ?
+  #     - what is time is US ?
+  #     - what is time is USA ?
+  #     - what time do you have?
+  #     - what time is it
+  #     - what time is it?
+  #     - what time it is
+  #     - what's the time
+  #     - whats the time now
+  # - intent: bot_ask_weather
+  #   examples: |
+  #     - Are there any meteorological changes that I need to be aware of?
+  #     - Are we in for a scorcher?
+  #     - Beautiful day, isn't it?
+  #     - Can I ask you something about weather
+  #     - Can we expect any thunderstorms?
+  #     - Do you have good weather?
+  #     - How is the weather today?
+  #     - How is the weather?
+  #     - How is weather today
+  #     - Is it hot or cold?
+  #     - Is it humid out there today?
+  #     - Is it quite breezy outside?
+  #     - Is it raining
+  #     - Is it raining?
+  #     - Looks like a beautiful day hey?
+  #     - Nice day out today?
+  #     - Weather?
+  #     - What is the temperature today?
+  #     - What is the weather at your place?
+  #     - What is the weather for tomorrow?
+  #     - What is the weather in newyork?
+  #     - What's it like out there?
+  #     - What's the weather forecast?
+  #     - What's the weather like over there?
+  #     - What's the weather like where I am right now?
+  #     - What's the weather like?
+  #     - Will I require my raincoat today?
+  #     - Will the skies be clear today?
+  #     - Will we build a snowman today?
+  #     - excellent - is it hot in [Berlin](location)?
+  #     - how is the weather
+  #     - how is the weather ?
+  #     - how is the weather in [berlin](location)?
+  #     - how is the weather?
+  #     - how's the weather ?
+  #     - how's the weather in [berlin](location)
+  #     - how's the weather?
+  #     - how's weather
+  #     - hows the waether
+  #     - hows the weather in bot world
+  #     - hows the weather today in [berlin](location)?
+  #     - is it hot ?
+  #     - is it hot outside ?
+  #     - is it sunny
+  #     - is the sun out where you are?
+  #     - is the sun out where zou are?
+  #     - it is cold
+  #     - temperature?
+  #     - the weather today
+  #     - weatger
+  #     - weather
+  #     - weather?
+  #     - well, if you wish: what about the weather
+  #     - what about the weather in [Lüneburg](location)
+  #     - what is the temperature
+  #     - what is the wather
+  #     - what is the weatehr
+  #     - what is the weather
+  #     - what is the weather in [Berlin](location)
+  #     - what is the weather in [zurich](location)?
+  #     - what is the weather like where you are?
+  #     - what is the weather like?
+  #     - what is the whether today
+  #     - what the wheather like?
+  #     - what"s the weather
+  #     - what's the weather
+  #     - what's the weather like
+  #     - what's the weather like in [LA](location)
+  #     - what's the weather like where you are?
+  #     - what's the weather like?
+  #     - what's the weather today
+  #     - what's the weather today?
+  #     - whats the temperature
+  #     - whats the temperature in [delhi](location)?
+  #     - whats the weather in [berlin](location)?
+  #     - whats the weather like tomorrow?
+  #     - wheather at you location?
+  #     - wheather be like at your place?
   # - intent: bot_ask_languagesbot
   #   examples: |
   #     - Are you familiar with more than one language?

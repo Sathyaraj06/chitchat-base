@@ -12,46 +12,46 @@ stories:
     steps:
       - intent: bot_annoying
       - action: utter_bot_annoying
-  - story: story 04
-    steps:
-      - intent: bot_answer_my_question
-      - action: utter_bot_answer_my_question
-  - story: story 05
-    steps:
-      - intent: bot_bad
-      - action: utter_bot_bad
-  - story: story 06
-    steps:
-      - intent: bot_be_clever
-      - action: utter_bot_be_clever
-  - story: story 07
-    steps:
-      - intent: bot_beautiful
-      - action: utter_bot_beautiful
-  - story: story 08
-    steps:
-      - intent: bot_birth_date
-      - action: utter_bot_birth_date
-  - story: story 09
-    steps:
-      - intent: bot_boring
-      - action: utter_bot_boring
-  - story: story 10
-    steps:
-      - intent: bot_boss
-      - action: utter_bot_boss
-  - story: story 10.1
-    steps:
-      - intent: bot_ask_howbuilt
-      - action: utter_bot_ask_howbuilt
-  - story: story 10.2
-    steps:
-      - intent: bot_ask_time
-      - action: utter_bot_ask_time
-  - story: story 10.3
-    steps:
-      - intent: bot_ask_weather
-      - action: utter_bot_ask_weather
+  # - story: story 04
+  #   steps:
+  #     - intent: bot_answer_my_question
+  #     - action: utter_bot_answer_my_question
+  # - story: story 05
+  #   steps:
+  #     - intent: bot_bad
+  #     - action: utter_bot_bad
+  # - story: story 06
+  #   steps:
+  #     - intent: bot_be_clever
+  #     - action: utter_bot_be_clever
+  # - story: story 07
+  #   steps:
+  #     - intent: bot_beautiful
+  #     - action: utter_bot_beautiful
+  # - story: story 08
+  #   steps:
+  #     - intent: bot_birth_date
+  #     - action: utter_bot_birth_date
+  # - story: story 09
+  #   steps:
+  #     - intent: bot_boring
+  #     - action: utter_bot_boring
+  # - story: story 10
+  #   steps:
+  #     - intent: bot_boss
+  #     - action: utter_bot_boss
+  # - story: story 10.1
+  #   steps:
+  #     - intent: bot_ask_howbuilt
+  #     - action: utter_bot_ask_howbuilt
+  # - story: story 10.2
+  #   steps:
+  #     - intent: bot_ask_time
+  #     - action: utter_bot_ask_time
+  # - story: story 10.3
+  #   steps:
+  #     - intent: bot_ask_weather
+  #     - action: utter_bot_ask_weather
   # - story: story 10.4
   #   steps:
   #     - intent: bot_ask_languagesbot

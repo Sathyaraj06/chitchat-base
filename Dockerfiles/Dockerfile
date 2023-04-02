@@ -14,7 +14,7 @@ ENTRYPOINT []
 ENV shell_mode false
 
 # RUN - executed when image is builded and added to image part (seated to image)
-RUN rasa train --data data/chitchat/nlu.yml data/chitchat/stories.yml -d data/chitchat/domain.yml --out models/models_chitchat
+RUN rasa train --data data/chitchat/nlu.yml data/chitchat/stories.yml -d data/chitchat/domain.yml --out models --models_chitchat
 # RUN rasa train --data data/organization/nlu.yml data/organization/stories.yml -d data/organization/domain.yml --out models/models_organization
 
 # # launch script (rasa shell or rasa run)
