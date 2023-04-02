@@ -40,6 +40,22 @@ stories:
     steps:
       - intent: bot_boss
       - action: utter_bot_boss
+  - story: story 10.1
+    steps:
+      - intent: bot_ask_howbuilt
+      - action: utter_bot_ask_howbuilt
+  - story: story 10.2
+    steps:
+      - intent: bot_ask_time
+      - action: utter_bot_ask_time
+  - story: story 10.3
+    steps:
+      - intent: bot_ask_weather
+      - action: utter_bot_ask_weather
+  - story: story 10.4
+    steps:
+      - intent: bot_ask_languagesbot
+      - action: utter_bot_ask_languagesbot
   - story: story 11
     steps:
       - intent: bot_busy
