@@ -98,10 +98,10 @@ intents:
 
 responses:
     utter_bot_acquaintance:
-        - text: "I'm a chichat"
+        - text: "I'm a hexaware"
 
     utter_bot_age:
-        - text: "my age is 1"
+        - text: "my age is 10"
 
     # utter_bot_annoying:
     #     - text: "I'll do my best not to annoy you in the future."

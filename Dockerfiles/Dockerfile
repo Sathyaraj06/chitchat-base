@@ -15,7 +15,7 @@ ENV shell_mode false
 
 # RUN - executed when image is builded and added to image part (seated to image)
 RUN rasa train --data data/chitchat/nlu.yml data/chitchat/stories.yml -d data/chitchat/domain.yml --out models --fixed-model-name chitchat-model
-# RUN rasa train --data data/organization/nlu.yml data/organization/stories.yml -d data/organization/domain.yml --out models/models_organization
+RUN rasa train --data data/hexaware/nlu.yml data/hexaware/stories.yml -d data/hexaware/domain.yml --out models --fixed-model-name hexaware-model
 
 # # launch script (rasa shell or rasa run)
 # CMD sh -c 'if [ "$shell_mode" = false ]; then rasa run -p 5006 --cors "*"; else rasa shell -p 5006; fi'
