@@ -4,7 +4,7 @@ echo "started---------------"
 
 sudo docker rmi $(sudo docker images -q)
 
-git pull
+git reset --hard
 
 sudo docker-compose build
 
