@@ -5,7 +5,7 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    # - bot_acquaintance
+    - bot_acquaintance
     # - bot_age
     # - bot_annoying
     # - bot_answer_my_question
@@ -97,12 +97,12 @@ intents:
     # - confirmation_no
 
 responses:
-    # utter_bot_acquaintance:
-    #     - text: "I'm a virtual agent"
-    #     - text: "Think of me as a virtual bot_"
-    #     - text: "Well, I'm not a person, I'm a virtual bot_"
-    #     - text: "I'm a virtual being, not a real person."
-    #     - text: "I'm a conversational app."
+    utter_bot_acquaintance:
+        - text: "I'm a virtual agent"
+        - text: "Think of me as a virtual bot_"
+        - text: "Well, I'm not a person, I'm a virtual bot_"
+        - text: "I'm a virtual being, not a real person."
+        - text: "I'm a conversational app."
 
     # utter_bot_age:
     #     - text: "I prefer not to answer with a number. I know I'm young."
