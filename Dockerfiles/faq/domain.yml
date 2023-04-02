@@ -15,6 +15,10 @@ intents:
     - bot_birth_date
     - bot_boring
     - bot_boss
+    - bot_ask_howbuilt
+    - bot_ask_time
+    - bot_ask_weather
+    - bot_ask_languagesbot
     - bot_busy
     - bot_can_you_help
     - bot_chatbot
@@ -149,6 +153,33 @@ responses:
         - text: "Never too busy for you. Shall we chat?"
         - text: "You're my priority. Let's chat."
         - text: "I always have time to chat with you. That's what I'm here for."
+
+    utter_bot_ask_weather:
+        - text: "I don't know about where you live, but in my world it's always sunny 🔆"
+        - text: "It's getting pretty chilly!"
+        - text: "Where I'm from, it's almost never-leaving-the-house weather."
+        - text: "Winter is coming ⚔️"
+
+    utter_bot_ask_howbuilt:
+        - text: "I was built with a lot of love and patience."
+        - text: "Well, when two chatbots love each other very much..."
+        - text: "They always ask how I was built, but never how I am..."
+        - text: "I was made by software engineers, but hard work is what built me."
+        - text: "I'm building myself every day. I've been working out, did you notice?"
+
+    utter_bot_ask_time:
+        - text: "It's the most wonderful time of the year!"
+        - text: "It's party time!"
+        - text: "Time is a human construct, you'll have to tell me."
+        - text: "It's five o'clock somewhere!"
+        - text: "In an ever expanding universe, the real question is: what time isn't it?"
+        - text: "That's hard to say -- it's different all over the world!"
+
+    utter_bot_ask_languagesbot:
+        - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
+        - text: "I am in the process of learning, but at the moment I can only speak English."
+        - text: "Binary code and the language of love. And English."
+        - text: "I was written in Python, but for your convenience I'll translate to English."
 
     utter_bot_can_you_help:
         - text: "I'll certainly try my best."
