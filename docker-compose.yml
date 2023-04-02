@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  rasa-faq:
+    container_name: rasa-faq
+    image: bb294a64473c
+    build: ./faq
+    ports:
+      - "5006:5006"
+    networks:
+      - code-network
+    restart: always
+networks:
+  code-network:
+    driver: bridge
