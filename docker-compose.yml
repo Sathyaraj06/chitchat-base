@@ -8,8 +8,6 @@ services:
     build: ./Dockerfiles
     ports:
       - "5005:5005"
-    networks:
-      - code-network
     restart: always
     command: rasa run -m models/chitchat-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
@@ -18,11 +16,12 @@ services:
     image: rasa-faq:latest
     ports:
       - "5006:5005"
-    networks:
-      - code-network
     restart: always
     command: rasa run -m models/hexaware-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
-networks:
-  code-network:
-    driver: bridge
+# networks:
+#   code-network:
+#     driver: bridge
+
+    # networks:
+    #   - code-network
