@@ -1,8 +1,9 @@
 version: '3'
 
 services:
-  rasa-faq:
-    container_name: rasa-faq
+
+  organization1:
+    container_name: organization1
     image: rasa-faq:latest
     build: ./Dockerfiles
     ports:
@@ -10,6 +11,18 @@ services:
     networks:
       - code-network
     restart: always
+    command: rasa run -m models/models_chitchat.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"
+
+  # organization2:
+  #   container_name: organization2
+  #   image: rasa-faq:latest
+  #   ports:
+  #     - "5006:5005"
+  #   networks:
+  #     - code-network
+  #   restart: always
+  #   command: rasa run -m models/models_organization2.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"
+
 networks:
   code-network:
     driver: bridge

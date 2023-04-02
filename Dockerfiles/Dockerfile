@@ -13,9 +13,9 @@ USER root
 ENTRYPOINT []
 ENV shell_mode false
 
-# RUN rasa train
+# RUN - executed when image is builded and added to image part (seated to image)
 RUN rasa train --data data/chitchat/nlu.yml data/chitchat/stories.yml -d data/chitchat/domain.yml --out models/models_chitchat
-RUN rasa train --data data/organization/nlu.yml data/organization/stories.yml -d data/organization/domain.yml --out models/models_organization
+# RUN rasa train --data data/organization/nlu.yml data/organization/stories.yml -d data/organization/domain.yml --out models/models_organization
 
 # # launch script (rasa shell or rasa run)
 # CMD sh -c 'if [ "$shell_mode" = false ]; then rasa run -p 5006 --cors "*"; else rasa shell -p 5006; fi'
@@ -24,7 +24,9 @@ RUN rasa train --data data/organization/nlu.yml data/organization/stories.yml -d
 # rasa run --enable-api -m models/<model-a>.tar.gz --port 12345
 # rasa run --enable-api -m models/<model-b>.tar.gz --port 12346
 
-CMD sh -c 'if [ "$shell_mode" = false ]; then rasa run -m models/models_chitchat.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"; else rasa shell -p 5005; fi'
+# CMD - executed only when image is launched as container - when we use docker run below command will be overwritten
+
+# CMD sh -c 'if [ "$shell_mode" = false ]; then rasa run -m models/models_chitchat.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"; else rasa shell -p 5005; fi'
 # CMD sh -c 'if [ "$shell_mode" = false ]; then rasa run -m models/models_organization.tar.gz -p 5006 --enable-api  --log-file rasa.log --debug --cors "*"; else rasa shell -p 5006; fi'
 
 
