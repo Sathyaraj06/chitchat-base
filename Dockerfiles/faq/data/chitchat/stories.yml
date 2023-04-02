@@ -4,10 +4,10 @@ stories:
     steps:
       - intent: bot_acquaintance
       - action: utter_bot_acquaintance
-  # - story: story 02
-  #   steps:
-  #     - intent: bot_age
-  #     - action: utter_bot_age
+  - story: story 02
+    steps:
+      - intent: bot_age
+      - action: utter_bot_age
   # - story: story 03
   #   steps:
   #     - intent: bot_annoying
