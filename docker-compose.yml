@@ -3,10 +3,10 @@ version: '3'
 services:
   rasa-faq:
     container_name: rasa-faq
-    image: bb294a64473c
-    build: ./faq
+    image: rasa-faq:latest
+    build: ./Dockerfiles/faq
     ports:
-      - "5006:5006"
+      - "5005:5005"
     networks:
       - code-network
     restart: always
