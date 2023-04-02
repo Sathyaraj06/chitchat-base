@@ -6,23 +6,23 @@ services:
     container_name: chitchat
     image: rasa-faq:latest
     build: ./Dockerfiles
+    ports:
+      - "5005:5005"
     networks:
       - code-network
     restart: always
-    command: rasa run -m models/chitchat-model.tar.gz -p 5005 --enable-api  --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/chitchat-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
   hexaware:
     container_name: hexaware
     image: rasa-faq:latest
+    ports:
+      - "5006:5005"
     networks:
       - code-network
     restart: always
-    command: rasa run -m models/hexaware-model.tar.gz -p 5006 --enable-api  --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/hexaware-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
 networks:
   code-network:
     driver: bridge
-
-
-#   ports:
-# - "5005:5005"
