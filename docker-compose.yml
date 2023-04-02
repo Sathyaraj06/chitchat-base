@@ -2,12 +2,10 @@ version: '3'
 
 services:
 
-  organization1:
-    container_name: organization1
+  chitchat:
+    container_name: chitchat
     image: rasa-faq:latest
     build: ./Dockerfiles
-    ports:
-      - "5005:5005"
     networks:
       - code-network
     restart: always
@@ -16,8 +14,6 @@ services:
   hexaware:
     container_name: hexaware
     image: rasa-faq:latest
-    ports:
-      - "5006:5005"
     networks:
       - code-network
     restart: always
@@ -26,3 +22,7 @@ services:
 networks:
   code-network:
     driver: bridge
+
+
+#   ports:
+# - "5005:5005"

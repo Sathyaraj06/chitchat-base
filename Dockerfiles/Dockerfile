@@ -6,7 +6,7 @@ FROM rasa/rasa:3.3.7
 COPY ./faq/ /app
 
 # inform which port will run on
-EXPOSE 5005 5006
+EXPOSE 5005
 
 USER root
 
