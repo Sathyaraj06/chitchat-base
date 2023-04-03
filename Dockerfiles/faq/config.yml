@@ -19,8 +19,8 @@ pipeline:
   - name: "DIETClassifier"
     batch_strategy: sequence
     epochs: 100
-  - name: ResponseSelector
   - name: EmbeddingIntentClassifier
+  - name: ResponseSelector
     epochs: 300
     retrieval_intent: chitchat
   - name: FallbackClassifier
