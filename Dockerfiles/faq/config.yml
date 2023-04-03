@@ -20,6 +20,7 @@ pipeline:
     batch_strategy: sequence
     epochs: 100
   - name: ResponseSelector
+  - name: EmbeddingIntentClassifier
     epochs: 300
     retrieval_intent: chitchat
   - name: FallbackClassifier
