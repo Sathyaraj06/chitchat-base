@@ -19,13 +19,13 @@ services:
     restart: always
     command: rasa run -m models/hexaware-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
-  organization:
-    container_name: organization
-    image: rasa-faq:latest
-    ports:
-      - "5000:5005"
-    restart: always
-    command: rasa run -m models/organization-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
+  # organization:
+  #   container_name: organization
+  #   image: rasa-faq:latest
+  #   ports:
+  #     - "5000:5005"
+  #   restart: always
+  #   command: rasa run -m models/organization-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
 # networks:
 #   code-network:
