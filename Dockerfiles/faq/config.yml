@@ -3,7 +3,7 @@ language: en
 pipeline:
   - name: "WhitespaceTokenizer"
   - name: "RegexFeaturizer"
-#  - name: "spellchecking.CorrectSpelling"
+    #  - name: "spellchecking.CorrectSpelling"
     case_sensitive: False
     use_lookup_tables: True
     use_regexes: True
@@ -14,7 +14,8 @@ pipeline:
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
-  - name: "RegexEntityExtractor" 
+  - name: "CRFEntityExtractor"
+  - name: "RegexEntityExtractor"
   - name: "DIETClassifier"
     batch_strategy: sequence
     epochs: 100
