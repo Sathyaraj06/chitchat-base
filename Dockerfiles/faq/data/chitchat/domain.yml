@@ -9,8 +9,8 @@ intents:
     - bot_age
 
 responses:
-    utter_chitchat/bot_acquaintance:
+    utter_chitchat\bot_acquaintance:
         - text: "I'm a chichat"
 
-    utter_chitchat/bot_age:
+    utter_chitchat\bot_age:
         - text: "my age is 1"
