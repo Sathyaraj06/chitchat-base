@@ -2,9 +2,9 @@ version: "2.0"
 stories:
   - story: story 01
     steps:
-      - intent: bot_acquaintance
-      - action: utter_bot_acquaintance
+      - intent: chitchat/bot_acquaintance
+      - action: utter_chitchat/bot_acquaintance
   - story: story 02
     steps:
-      - intent: bot_age
-      - action: utter_bot_age
+      - intent: chitchat/bot_age
+      - action: utter_chitchat/bot_age
