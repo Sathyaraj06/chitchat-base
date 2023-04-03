@@ -1,6 +1,6 @@
 version: "3"
 nlu:
-  - intent: chitchat\bot_acquaintance
+  - intent: chitchat/bot_acquaintance
     examples: |
       - tell me about your personality
       - why are you here
@@ -23,7 +23,7 @@ nlu:
       - what are you upto?
       - who the hell are you?
       - what can you do for me?
-  - intent: chitchat\bot_age
+  - intent: chitchat/bot_age
     examples: |
       - tell me your age
       - what's your age?
