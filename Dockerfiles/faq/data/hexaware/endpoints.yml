@@ -41,6 +41,6 @@
 #  password: password
 #  queue: queue
 
-models:
-  url: https://evisbotdevstorage.blob.core.windows.net/rasa-model/hexaware.tar.gz
-  wait_time_between_pulls: null # fetches model only once
+# models:
+#   url: https://evisbotdevstorage.blob.core.windows.net/rasa-model/hexaware.tar.gz
+#   wait_time_between_pulls: null # fetches model only once
