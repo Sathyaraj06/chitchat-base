@@ -5,8 +5,8 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    - bot_acquaintance
-    - bot_age
+    - chitchat\bot_acquaintance
+    - chitchat\bot_age
     - chitchat
 
 responses:
