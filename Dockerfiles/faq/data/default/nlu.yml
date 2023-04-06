@@ -3,6 +3,8 @@ nlu:
   - intent: default_who
     examples: |
       - who are you
+      - what are you
   - intent: default_working
     examples: |
       - Are you working
+      - Are you alive
