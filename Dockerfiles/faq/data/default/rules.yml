@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+  - rule: default_who
+    steps:
+      - intent: default_who
+      - action: utter_default_who
+
+  - rule: default_working
+    steps:
+      - intent: default_working
+      - action: utter_default_working

@@ -7,9 +7,9 @@ services:
     image: rasa-faq:latest
     build: ./Dockerfiles
     ports:
-      - "5006:5005"
+      - "5007:5005"
     restart: always
-    command: rasa run -m models/chitchat-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/default-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
   #hexaware:
   #  container_name: hexaware

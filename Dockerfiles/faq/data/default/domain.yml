@@ -1,0 +1,16 @@
+version: "3.1"
+
+session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
+
+intents:
+    - default_who
+    - default_working
+
+responses:
+    utter_default_who:
+        - text: "I'm a default model, running as container"
+
+    utter_default_working:
+        - text: "I am working without any issues, but you need to replace the model to get special benefits"

@@ -13,8 +13,18 @@ USER root
 ENTRYPOINT []
 ENV shell_mode false
 
+RUN rasa train --data data/default/nlu.yml data/default/rules.yml -d data/default/domain.yml --out models --fixed-model-name default-model
+
+
+
+
+
+
+
+
 # RUN - executed when image is builded and added to image part (seated to image)
-RUN rasa train --data data/chitchat/nlu.yml data/chitchat/stories.yml data/chitchat/rules.yml -d data/chitchat/domain.yml --out models --fixed-model-name chitchat-model
+
+# RUN rasa train --data data/default/nlu.yml data/default/stories.yml data/default/rules.yml -d data/default/domain.yml --out models --fixed-model-name default-model
 # RUN rasa train --data data/hexaware/nlu.yml data/hexaware/stories.yml -d data/hexaware/domain.yml --out models --fixed-model-name hexaware-model
 # RUN rasa train --data data/organization/nlu.yml data/organization/stories.yml -d data/organization/domain.yml --out models --fixed-model-name organization-model
 
