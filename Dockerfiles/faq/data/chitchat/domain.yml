@@ -96,6 +96,7 @@ intents:
     - chitchat/confirmation_cancel
     - chitchat/confirmation_no
     - chitchat
+    - bot_mock
 
 responses:
     utter_chitchat/bot_acquaintance:
