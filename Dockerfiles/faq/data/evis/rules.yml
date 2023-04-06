@@ -6,7 +6,7 @@ rules:
       - intent: chitchat
       - action: utter_chitchat
 
-  - rule: Say 'I am a mock' anytime the user mocks
+  - rule: Say 'I am a bot' anytime the user challenges
     steps:
-      - intent: bot_mock
-      - action: utter_mock
+      - intent: bot_challenge
+      - action: utter_iamabot
