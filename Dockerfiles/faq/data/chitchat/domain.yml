@@ -17,3 +17,4 @@ responses:
         - text: "my age is 1"
 
     utter_iamabot:
+        - text: ""
