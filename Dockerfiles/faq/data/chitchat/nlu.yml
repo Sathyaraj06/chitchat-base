@@ -45,3 +45,9 @@ nlu:
       - how old r u?
       - From how long you have been here?
       - You look aged
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?

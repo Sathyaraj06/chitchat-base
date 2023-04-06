@@ -8,5 +8,5 @@ rules:
 
   - rule: Say 'I am a bot' anytime the user challenges
     steps:
-      - intent: chitchat\bot_acquaintance
-      - action: utter_chitchat\bot_acquaintance
+      - intent: bot_challenge
+      - action: utter_iamabot

@@ -15,3 +15,6 @@ responses:
 
     utter_chitchat\bot_age:
         - text: "my age is 1"
+
+    utter_iamabot:
+        - text: "I am a bot, powered by Rasa."
