@@ -5,3 +5,8 @@ rules:
     steps:
       - intent: chitchat
       - action: utter_chitchat
+      
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
