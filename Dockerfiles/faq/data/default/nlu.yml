@@ -1,10 +1,12 @@
 version: "3.1"
 nlu:
-  - intent: default_who
+  - intent: chitchat/default_who
     examples: |
       - who are you
       - what are you
-  - intent: default_working
+  - intent: bot_challenge
     examples: |
-      - Are you working
-      - Are you alive
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?

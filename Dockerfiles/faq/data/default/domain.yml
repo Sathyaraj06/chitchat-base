@@ -5,12 +5,11 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    - default_who
-    - default_working
+    - chitchat/default_who
+    - chitchat
 
 responses:
-    utter_default_who:
+    utter_chitchat/default_who:
         - text: "I'm a default model, running as container"
-
-    utter_default_working:
-        - text: "I am working without any issues, but you need to replace the model to get special benefits"
+    utter_iamabot:
+        - text: ""
