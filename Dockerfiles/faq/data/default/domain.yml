@@ -6,10 +6,13 @@ session_config:
 
 intents:
     - chitchat/default_who
+    - chitchat/bot_age
     - chitchat
 
 responses:
     utter_chitchat/default_who:
         - text: "I'm a default model, running as container"
+    utter_chitchat/bot_age:
+        - text: "my age is 1"
     utter_iamabot:
         - text: ""

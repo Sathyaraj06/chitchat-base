@@ -4,6 +4,9 @@ nlu:
     examples: |
       - who are you
       - what are you
+  - intent: chitchat/bot_age
+    examples: |
+      - tell me your age
   - intent: bot_challenge
     examples: |
       - are you a bot?
