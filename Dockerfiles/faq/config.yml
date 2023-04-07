@@ -19,6 +19,7 @@ pipeline:
   - name: "RegexEntityExtractor"
   - name: "DIETClassifier"
     batch_strategy: sequence
+    return_sequence: False
     epochs: 100
   - name: EntitySynonymMapper
   - name: ResponseSelector
