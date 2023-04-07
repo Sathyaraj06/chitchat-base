@@ -1,20 +1,16 @@
 version: "3.1"
 
 session_config:
-    session_expiration_time: 60 # value in minutes
+    session_expiration_time: 60
     carry_over_slots_to_new_session: true
 
 intents:
-    - chitchat/bot_acquaintance
-    - chitchat/bot_age
-    - chitchat
+    - default_who
+    - default_working
 
 responses:
-    utter_chitchat/bot_acquaintance:
-        - text: "I'm a chichat"
+    utter_default_who:
+        - text: "I'm a default model, running as container"
 
-    utter_chitchat/bot_age:
-        - text: "my age is 1"
-
-    utter_iamabot:
-        - text: "hello"
+    utter_default_working:
+        - text: "I am working without any issues, but you need to replace the model to get special benefits"
